@@ -1,11 +1,6 @@
 ( function($) {
 	var verticalResponsiveImages = {
-		getImages: function() {
-			return $( 'img:not(.do-not-resize)' );
-		},
-
 		resize: function() {
-			console.log( 'resize' );
 			$( 'img:not(.do-not-resize)' ).css( {
 				// Use 80% of the window height to give it some breathing room
 				'max-height': $( window ).height() * 0.8

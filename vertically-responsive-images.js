@@ -13,4 +13,7 @@
 
 	// Resize on window resize, but only every 200 ms
 	$( window ).resize( _.debounce( verticalResponsiveImages.resize, 200 ) );
+
+	// Resize on Jetpack's infinite scroll event
+	$( 'body' ).on( 'post-load', verticalResponsiveImages.resize );
 }( jQuery ));

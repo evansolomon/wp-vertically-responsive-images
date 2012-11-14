@@ -1,8 +1,8 @@
 === Vertically Responsive Images ===
 Contributors: evansolomon
 Tags: images, responsive
-Requires at least: 3.4
-Tested up to: 3.4.2
+Requires at least: 3.5
+Tested up to: 3.5
 Stable tag: 1.0
 
 Resize images on the fly to make sure the whole thing fits into the user's window.

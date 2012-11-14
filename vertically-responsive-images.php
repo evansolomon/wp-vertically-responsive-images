@@ -9,6 +9,10 @@ Author URI: http://evansolomon.me/
 */
 
 function es_vertically_responsive_images() {
+	// Make sure underscore.js is available since it's new
+	if ( ! wp_script_is( 'underscore', 'registered' ) )
+		return;
+
 	wp_enqueue_script(
 		'vertically-responsive-images',
 		plugins_url( '/vertically-responsive-images.js', __FILE__ ),

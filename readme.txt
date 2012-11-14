@@ -3,7 +3,7 @@ Contributors: evansolomon
 Tags: images, responsive
 Requires at least: 3.5
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: 1.1
 
 Resize images on the fly to make sure the whole thing fits into the user's window.
 
@@ -17,6 +17,9 @@ Normal stuff, wp-content/plugins
 
 
 == Changelog ==
+
+= 1.1 =
+* Support Jetpack infinite scroll by automatically resizing images in posts it adds
 
 = 1.0 =
 * Launch!

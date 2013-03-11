@@ -18,6 +18,9 @@ Normal stuff, wp-content/plugins
 
 == Changelog ==
 
+= 1.1.1 =
+* Make sure Underscore.js is available
+
 = 1.1 =
 * Support Jetpack infinite scroll by automatically resizing images in posts it adds
 

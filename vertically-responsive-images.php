@@ -3,7 +3,7 @@
 /*
 Plugin Name: Vertically Responsive Images
 Description: Resize images on the fly to fit the vertically dimensions of the user's window.
-Version: 1.1
+Version: 1.1.1
 Author: Evan Solomon
 Author URI: http://evansolomon.me/
 */
